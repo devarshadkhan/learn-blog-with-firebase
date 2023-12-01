@@ -7,8 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 // import "bootstrap/"
 import { BrowserRouter } from "react-router-dom";
-import { FireBase_Provider } from "./Context/FirebaseContext.js";
-import { Toast_Provider } from "./Context/ToastContext.js";
+import { FireBase_Provider } from "./Context/FirebaseContext.jsx";
+import { Toast_Provider } from "./Context/ToastContext.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
